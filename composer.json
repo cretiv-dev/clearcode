@@ -1,0 +1,29 @@
+{
+    "name": "clearcode/php-recruitment",
+    "description": "Recruitment task for php developers",
+    "authors": [
+        {
+            "name": "Grzegorz Kielar",
+            "email": "grzegorzm.kielar@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "psr/log": "~1.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=4.8.0",
+        "phpspec/phpspec": "~2.2.0"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-4": {
+            "Clearcode\\": "src",
+            "ReaderStub\\": "stubs/Reader",
+            "WriterStub\\": "stubs/Writer",
+            "ImporterStub\\": "stubs/importer"
+        }
+    }
+}
