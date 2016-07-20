@@ -3,5 +3,7 @@
 /vendor/
 /nbproject
 /composer.phar
+/src/public/bootstrap
+/src/templates_c
 
 .idea
